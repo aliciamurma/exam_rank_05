@@ -20,6 +20,11 @@ ATarget &ATarget::operator=(ATarget const &copy)
 	return (*this);
 }
 
+std::string ATarget::getType() const
+{
+	return (this->attribute);
+}
+
 void	ATarget::getHitBySpell(ASpell const &spell) const
 {
 	std::cout << attribute << " has been " << spell.getEffects() << "!\n";

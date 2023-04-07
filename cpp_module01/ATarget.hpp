@@ -13,7 +13,7 @@ class ATarget
 		virtual ~ATarget();
 		ATarget(ATarget const &copy);
 		ATarget &operator=(ATarget const &copy);
-		std::string const &getType() const;
+		std::string getType() const;
 		virtual ATarget *clone() const = 0;
 		void	getHitBySpell(ASpell const &spell) const;
 };
