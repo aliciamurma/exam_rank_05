@@ -6,13 +6,6 @@ SpellBook::SpellBook()
 
 SpellBook::~SpellBook()
 {
-	std::vector<ASpell *>::iterator iter = this->vect.begin();
-
-	for (; iter != vect.end(); iter++)
-	{
-		delete *iter;
-	}
-	this->vect.clear();
 }
 
 void	SpellBook::learnSpell(ASpell *spell)
