@@ -37,7 +37,7 @@ int main()
 }
 ```
 
-### Output
+## Output
 ```
 ~$ ./a.out | cat -e
 Richard: This looks like another boring day.$
