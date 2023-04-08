@@ -21,7 +21,7 @@ It will have the following functions:
 <li> void forgetTargetType(string const &), that makes the generator forget a target type if it's known. </li>
 <li> ATarget* createTarget(string const &), that creates a target of the specified type. </li>
 
-### Main
+## Main
 ```
 int main()
 {
@@ -47,7 +47,7 @@ int main()
 }
 ```
 
-### Output
+## Output
 ```
 ~$ ./a.out | cat -e
 Richard: This looks like another boring day.$
